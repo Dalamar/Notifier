@@ -14,7 +14,8 @@
         }
     ],  
     "require": {
-        "namshi/notificator": "1.0.*"
+        "namshi/notificator": "1.0.*",
+        "jolicode/jolinotif": "^2.0"
     },
     "require-dev": {
         "codeception/codeception": "@dev"
