@@ -1,5 +1,5 @@
 {
-    "name":"codeception/desktop-notifier",
+    "name":"dalamar/codeception-desktop-notifier",
     "description":"Desktop Notification Extension for Codeception",
     "keywords":["notification", "acceptance testing", "functional testing", "unit testing", "tdd"],
     "homepage":"https://github.com/Dalamar",

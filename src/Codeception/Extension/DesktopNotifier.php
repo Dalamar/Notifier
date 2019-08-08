@@ -1,6 +1,6 @@
 <?php
 
-namespace Codeception\Extension;
+namespace Dalamar\Codeception\Extension;
 
 use Codeception\Event\PrintResultEvent;
 use Codeception\Platform\Extension;
@@ -27,12 +27,8 @@ class DesktopNotifier extends Extension
 
         $notification =
             (new Notification())
-                ->setTitle('Codeception Tests results:')
-                ->setBody($message)
-                ->addOption('sound', 'Blow') // Only works on macOS (AppleScriptNotifier)
-//                ->setIcon(__DIR__ . '/path/to/your/icon.png')
-//                ->addOption('subtitle', 'Result type')// Only works on macOS (AppleScriptNotifier)
-        ;
+                ->setTitle('Codeception Tests Results')
+                ->setBody($message);
 
         $notifier->send($notification);
     }
