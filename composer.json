@@ -1,20 +1,19 @@
 {
-    "name":"codeception/notifier",
-    "description":"Notification Extension for Codeception",
+    "name":"codeception/desktop-notifier",
+    "description":"Desktop Notification Extension for Codeception",
     "keywords":["notification", "acceptance testing", "functional testing", "unit testing", "tdd"],
-    "homepage":"http://codeception.com/",
+    "homepage":"https://github.com/Dalamar",
 
     "type":"library",
     "license":"MIT",
     "authors":[
         {
-            "name":"Michael Bodnarchuk",
-            "email":"davert.php@mailican.com",
-            "homepage":"http://codeception.com"
+            "name":"Alexey Pikulik",
+            "email":"a.a.pikulik@gmail.com",
+            "homepage":"https://github.com/Dalamar"
         }
     ],  
     "require": {
-        "namshi/notificator": "1.0.*",
         "jolicode/jolinotif": "^2.0"
     },
     "require-dev": {
